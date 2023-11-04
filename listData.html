@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data List</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/logo.png" alt="Logo" width="auto" height="70">
+            </div>
+            <div class="col-md-6">
+                      <!-- Navigation bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">Data Management</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link current" href="listData.html">List Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Insert Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="detailsPage.html">details Data</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            </div>
+        </div>
+        <hr>
+        <h2>Data List</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Company Name</th>
+                    <th>Contact Number</th>
+                    <th>Email</th>
+                    <th>Website</th>
+                    <th>Date of Entry</th>
+                    <th>Date of Visit</th>
+                    <th>Address</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Replace the following with PHP code to fetch and populate the data -->
+                <tr>
+                    <td>John Doe</td>
+                    <td>ABC Company</td>
+                    <td>123-456-7890</td>
+                    <td>john.doe@example.com</td>
+                    <td>www.abc.com</td>
+                    <td>2023-11-01</td>
+                    <td>2023-11-02</td>
+                    <td>123 Main St, City, Country</td>
+                    <td><a href="edit.php">Edit</a></td>
+                    <td><a href="delete.php">Delete</a></td>
+                </tr>
+                <!-- End of PHP code -->
+                <!-- Dummy Data -->
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>XYZ Inc</td>
+                    <td>987-654-3210</td>
+                    <td>jane.smith@example.com</td>
+                    <td>www.xyz.com</td>
+                    <td>2023-11-03</td>
+                    <td>2023-11-04</td>
+                    <td>456 Elm St, City, Country</td>
+                    <td><a href="edit.php">Edit</a></td>
+                    <td><a href="delete.php">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>James Johnson</td>
+                    <td>LMN Corp</td>
+                    <td>555-123-4567</td>
+                    <td>james.johnson@example.com</td>
+                    <td>www.lmn.com</td>
+                    <td>2023-11-05</td>
+                    <td>2023-11-06</td>
+                    <td>789 Oak St, City, Country</td>
+                    <td><a href="edit.php">Edit</a></td>
+                    <td><a href="delete.php">Delete</a></td>
+                </tr>
+                <tr>
+                    <td>Mary Brown</td>
+                    <td>PQR Co</td>
+                    <td>111-222-3333</td>
+                    <td>mary.brown@example.com</td>
+                    <td>www.pqr.com</td>
+                    <td>2023-11-07</td>
+                    <td>2023-11-08</td>
+                    <td>321 Pine St, City, Country</td>
+                    <td><a href="edit.php">Edit</a></td>
+                    <td><a href="delete.php">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
